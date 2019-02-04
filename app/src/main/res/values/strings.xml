@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Тестовое задание</string>
+    <string name="permission_title">Внимание!</string>
+    <string name="permission_ask_message">Для корректной работы программе необходим доступ к телефону.</string>
+    <string name="permission_ok">Понятно</string>
+    <string name="permission_error_message">Без разрешения программа не сможет нормально работать.</string>
+</resources>

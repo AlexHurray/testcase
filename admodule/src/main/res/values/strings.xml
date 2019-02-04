@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AdModule</string>
+    <string name="error_permission">Ошибка получения IMSI! Убедитесь, что у приложения стоит разрешение на доступ к телефону.</string>
+</resources>
