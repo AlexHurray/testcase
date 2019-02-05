@@ -7,6 +7,8 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebSettings;
@@ -16,7 +18,7 @@ import android.webkit.WebViewClient;
 public class AdActivity extends AppCompatActivity {
     private static final String KEY_URL = "KEY_URL";
 
-    public static void start(Context context, String url) {
+    public static void start(@NonNull Context context, String url) {
         Intent startIntent = new Intent(context, AdActivity.class);
         startIntent.putExtra(KEY_URL, url);
         context.startActivity(startIntent);
@@ -24,7 +26,7 @@ public class AdActivity extends AppCompatActivity {
 
     @SuppressLint("SetJavaScriptEnabled")
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ad);
 
