@@ -1,5 +1,5 @@
 package com.example.ermolaenkoalex.admodule_compiler;
-
+ 
 import com.example.ermolaenkoalex.admodule_annotations.AddAdvertisement;
 
 import java.util.HashMap;
